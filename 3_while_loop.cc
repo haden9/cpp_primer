@@ -1,7 +1,6 @@
 #include <iostream>
 
-int main()
-{
+int main() {
   int fromRange = 0, toRange = 0;
 
   /*

@@ -4,10 +4,9 @@
  * This program receives two integer params and sums
  * them to display their result
  */
-int main()
-{
+int main() {
   // declare and initialize values
-  int v1 = 0, v2 = 0, result = 0; 
+  int v1 = 0, v2 = 0, result = 0;
   std::cout << "Enter the first number:" << std::endl;
   std::cin >> v1; // obtain the first value
   std::cout << "Enter the second number:" << std::endl;
