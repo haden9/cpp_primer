@@ -10,7 +10,7 @@ int main() {
   int sum = 0, value = 0;
 
   // an istream becomes invalid when we enter an end-of-file or invalid input
-  while(std::cin >> value) {
+  while (std::cin >> value) {
     sum += value;
   }
   std::cout << "Sum is: " << sum << std::endl;

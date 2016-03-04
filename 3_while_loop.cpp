@@ -12,7 +12,7 @@ int main() {
   std::cout << "Enter a second number: " << std::endl;
   std::cin >> toRange;
 
-  while(fromRange <= toRange) {
+  while (fromRange <= toRange) {
     std::cout << fromRange ++ << std::endl;
   }
 
